@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # --- CONFIGURACIÓN DE TUS DATOS ---
 TELEFONO = "51960881208"
-MENSAJE_TEXTO = "Buen día 😃, deseo solicitar activar mi cuenta  de MyLOFT.\nMi correo institucional es: "
+MENSAJE_TEXTO = "Buen día, deseo solicitar activar mi cuenta  de MyLOFT.\nMi correo institucional es: "
 
 # Codificar el mensaje para la URL de WhatsApp
 MENSAJE_REWRITE = urllib.parse.quote(MENSAJE_TEXTO)
